@@ -314,3 +314,36 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 h1:focus, p:focus, div:focus {
       pointer-events: none;
     }
+.steam-logo {
+      position: absolute;
+      left: 48.5%; /* Center horizontally */
+    }
+.w3-discord{
+      background-color: #5865F2;
+}
+
+.discord-section a {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 15px 30px;
+      border-radius: 5px;
+      background-color: #5865F2;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+.discord-section a:hover {
+      background-color: #4e5dc9;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+.discord-section img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+}
+html {
+      scroll-behavior: smooth;
+    }
