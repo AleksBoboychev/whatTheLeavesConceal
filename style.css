@@ -290,7 +290,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 24px;
-      color: white;
+      color: rgb(255, 255, 255);
       font-family: 'Georgia', serif; /* Matches title style */
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a glowing effect */
       margin-bottom: 10px; /* Space between text and button */
@@ -306,7 +306,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
       outline: none;
     }
     
-    .image-placement img {
+.image-placement img {
       max-width: 100%; /* Ensure the GIF scales responsively */
       height: auto;
       outline: none;
@@ -347,3 +347,9 @@ h1:focus, p:focus, div:focus {
 html {
       scroll-behavior: smooth;
     }
+@media (max-width: 600px) {
+      .announcement {
+        font-size: 20px;
+        text-align: center;
+      }
+}

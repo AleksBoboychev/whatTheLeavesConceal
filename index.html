@@ -35,9 +35,9 @@ body, html {
   <div class="w3-bar w3-card" id="myNavbar">
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">Play</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class=""></i> Screenshots</a>
-      <a href="#discord" class="w3-bar-item w3-button"><i class=""></i> Discord</a>
+      <a href="#about" class="w3-bar-item w3-button" style="color: white;">Play</a>
+      <a href="#work" class="w3-bar-item w3-button" style="color: white;"><i class=""></i> Screenshots</a>
+      <a href="#discord" class="w3-bar-item w3-button" style="color: white;"><i class=""></i> Discord</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -50,15 +50,16 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Play</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Screenshots</a>
-  <a href="#discord" class="w3-bar-item w3-button"><i class=""></i> Discord</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button" style="color: white;">Play</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button" style="color: white;">Screenshots</a>
+  <a href="#discord" class="w3-bar-item w3-button" style="color: white;"><i class=""></i> Discord</a>
 </nav>
 
 <!-- Header with full-height video -->
 <div class="containerWithVideo">
 <header class="bgimg-1 w3-display-container" id="home">
     <div class="hero">
+      <div class="makeLogoSmaller"></div>
     <img src="assests/Logo.png"></img>
     <video class="video-bg" autoplay muted loop>
       <source src="assests/Placeholder Video.mp4" type="video/mp4"></source>
